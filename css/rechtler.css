@@ -1,0 +1,22 @@
+@import url("./volt.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700&display=swap");
+
+:root {
+	/* Variables for default theme (light-mode) */
+	--sidenav-bg-color: #29313d;
+	--main-color: #29313d;
+	--main-header: #f38113;
+	--main-bg-color: #f9fafb;
+	--background-color: white;
+	--text-color: black;
+}
+
+[data-theme="dark"] {
+	/* Variables for dark mode */
+	--sidenav-bg-color: #212730;
+	--main-color: #f9fafb;
+	--main-header: #aa1089;
+	--main-bg-color: #29313d;
+	--background-color: black;
+	--text-color: white;
+}
